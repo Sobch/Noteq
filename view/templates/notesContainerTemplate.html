@@ -1,0 +1,24 @@
+<div style="overflow-x:auto;" id="notes">
+    <table>
+        <tr name="addPost" class="addPost addNote" id="addPost"><td colspan="4">Dodaj notatkę</td></tr>
+        <tr class="editPost" style="display:none" id="newPost"><td colspan="4">
+            <div style="display:none">
+                <form method="post">
+                    <h1>Tytuł notatki:</h1>
+                    <input type="text" name="subject" placeholder="Wprowadź tytuł notatki" value=""/>
+                    <h1>Treść notatki:</h1>
+                    <textarea name="content" placeholder="Wprowadź treść notatki" style="margin-bottom:20px;"></textarea>
+                    <div style="width:100%;">
+                        <button type="submit" class="submitPost newPost" style="width:100%">Zapisz notatkę</button>
+                    </div>
+                </form>
+            </div>
+        </td></tr>
+        <tr id="tableHead">
+          <th>Temat</th>
+          <th>Treść</th>
+          <th>Dodano</th>
+          <th>Edytowano</th>
+        </tr>
+    </table>
+</div>
