@@ -5,5 +5,5 @@ App uses html, js, jQuery, php, css, sass and MySQL database.
 
 ##### Demo: [sobczak.cc/noteq](http://sobczak.cc/noteq/)
 
-###### Login: *test@sobczak.cc*
+###### Login: *test<i></i>@sobczak.cc*
 ###### Password: *test*
